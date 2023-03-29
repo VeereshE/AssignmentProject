@@ -1,0 +1,26 @@
+nav{
+    position: absolute;
+    width: 320px;
+    height: 1117px;
+    left: 0px;
+    top: 0px;
+    background-color: #868BFE;
+}
+
+.heading{
+    color: #18306D;
+}
+
+.unorder-list{
+   padding: 20px;
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   align-items: center;
+   text-decoration: none;
+}
+
+.Link{
+    text-decoration: none;
+}
+

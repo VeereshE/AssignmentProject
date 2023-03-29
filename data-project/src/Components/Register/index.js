@@ -15,6 +15,7 @@ class Login extends Component{
       }
     }
 
+
     render(){
 
         const {number} = this.state
@@ -30,7 +31,7 @@ class Login extends Component{
                     <p className="paragraph">Balance work,life and everything in between with Taskoon</p>
                     <div className="phone-container">
                         <p className="phoneenter">Enter Name</p>
-                        <input className="input" type="text" placeholder="Enter Phone Number" value = {number}/>
+                        <input className="input" type="text" placeholder="Enter Name" value = {number} />
                         <br/>
                         <button className="buttonotp" type="button" onClick={this.onClickbutton}>GET OTP</button>
                     </div>
